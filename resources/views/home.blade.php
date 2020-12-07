@@ -4,6 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
+                <img class="img-responsive" src="{{URL::to('http://squuman.beget.tech/advertisment.jpg')}}" alt=""/>
                 <form action="{{ route('generate') }}" method="post">
                     {{ csrf_field() }}
                     <label class="form-check-label">
